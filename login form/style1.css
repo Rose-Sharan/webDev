@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+*{
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, monospace;
+    scroll-behavior: smooth;
+}
+.background-img  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+html {
+    font-family: Poppins, monospace;
+}
+.header-container .logo img {    
+    z-index: 99999;
+    padding-top: 20px;
+    height: 80px;
+    width: 300px;
+}
+.nav-bar {
+    z-index: 99999;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between; 
+}
+.nav-bar .nav-link {
+    z-index: 99999;
+    font-weight: 600;
+    font-size: 17px; 
+    color: rgb(33, 33, 33);
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.header-container {
+    z-index: 99999;
+    max-width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-name {
+    z-index: 99999;
+    margin-top: 200px;
+    /* background-color: rgb(163, 50, 50); */
+    max-width: 75%;
+    max-height: 300px;
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+}
+.header-name .heading {
+    z-index: 99999;
+    font-size: 40px;
+    text-align: left;
+}
+.header-name .heading-description {
+    z-index: 99999;
+    font-size: 40px;
+    text-align: left;
+}
+.heading-parts {
+    z-index: 99999;
+    /* background-color: rgb(163, 50, 50); */
+    margin-top: 50px;
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+.heading-parts .part1 .options1 {
+    z-index: 99999;
+    border-radius: 6px;
+    height: 60px;
+    width: 310px;
+    padding-left: 8px;
+    margin-right: 20px;
+}
+.heading-parts .part1 .options1 option {
+    z-index: 99999;
+    height: 60px;
+    width: 310px;
+    padding-left: 8px;
+}
+.heading-parts .part2 .options2 {
+    z-index: 99999;
+    border-radius: 6px;
+    height: 60px;
+    width: 310px;
+    padding-left: 8px;
+    margin-right: 20px;
+}
+.heading-parts .part2 .options2 option {
+    z-index: 99999;
+    height: 60px;
+    width: 310px;
+    padding-left: 8px;
+}
+.heading-parts .part3 button {
+    z-index: 99999;
+    height: 60px;
+    width: 270px;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(16, 108, 221);
+    font-weight: 500;
+}
+.heading-parts .part3 button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.social {
+    display: flex;
+    max-width: 75%;
+    margin-top: 60px;
+}
+
+.social-links #part1 {
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    margin-right: 50px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.social-links #part2 {
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: #fff;
+    margin-right: 50px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.social-links #part3 {
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+}
+.tours-section  {
+    margin-top: 200px;
+}
+.part1 img {
+    background-color: rgb(65, 65, 65);
+    border-radius:10px;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+.part1 .price {
+    display: flex;
+    max-width: 390px;
+    justify-content: space-between;
+}
+.part1 .img-description {
+    font-weight: 500;
+    text-align: left;
+    max-width: 400px;
+    font-size: 1.63em; 
+}
+.tours-section .pt1 {
+    max-width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tours-section .pt2 {
+    max-width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.view-all-btn button {
+    height: 60px;
+    width: 270px;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(16, 108, 221);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.view-all-btn button:hover {
+    background-color: rgb(75, 75, 75);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+ 
